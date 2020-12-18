@@ -62,22 +62,42 @@ namespace QuizApp2
             new Question
                 {
                     questionNumber = 1,
-                    questiontext = "test question1",
-                    answer1 = "test1",
-                    answer2 = "test2",
-                    answer3 = "test3",
-                    answer4 = "test4",
-                    correctAnswer = "test3"
+                    questiontext = "Which of these is not a blood genotype?",
+                    answer1 = "AB",
+                    answer2 = "BO",
+                    answer3 = "AC",
+                    answer4 = "B",
+                    correctAnswer = "AC"
                 },
              new Question
                 {
                     questionNumber = 2,
-                    questiontext = "test question2",
-                    answer1 = "test5",
-                    answer2 = "test6",
-                    answer3 = "test7",
-                    answer4 = "test8",
-                    correctAnswer = "test5"
+                    questiontext = "Which of these brings information from the DNA in the nucleus to the cytoplasm?",
+                    answer1 = "mRNA",
+                    answer2 = "rRNA",
+                    answer3 = "tRNA",
+                    answer4 = "ssRNA",
+                    correctAnswer = "mRNA"
+                },
+             new Question
+                { 
+                 questionNumber = 3,
+                 questiontext = "Which of these is the process of converting information in mRNA into a sequence of amino acids in a protein?",
+                 answer1 = "Transcription",
+                 answer2 = "Translation",
+                 answer3 = "Transformation",
+                 answer4 = "Transmigration",
+                 correctAnswer = "Translation"
+                },
+             new Question
+                {
+                 questionNumber = 4,
+                 questiontext = "Which of these is not a nitrogenous base in DNA?",
+                 answer1 = "Adenine",
+                 answer2 = "Cytosine",
+                 answer3 = "Guanine",
+                 answer4 = "Uracil",
+                 correctAnswer = "Uracil"
                 }
             };
 
