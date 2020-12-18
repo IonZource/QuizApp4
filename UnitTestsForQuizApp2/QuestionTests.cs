@@ -18,7 +18,7 @@ namespace UnitTestsForQuizApp2
         public void CheckCorrectAnswerChoice()
         {
             //
-            // TODO: Add constructor logic here
+            // Add constructor logic here
             //
             //using QuizApp2
             Assert.AreEqual("OperationComplete", QuizApp2.EventNames.OperationComplete);   
