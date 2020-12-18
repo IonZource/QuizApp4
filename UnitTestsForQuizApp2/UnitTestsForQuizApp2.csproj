@@ -48,6 +48,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuestionTests.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuizApp2\QuizApp2.csproj">
+      <Project>{edb525a4-a3d3-4302-a874-00f1886f1de7}</Project>
+      <Name>QuizApp2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
