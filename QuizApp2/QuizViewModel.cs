@@ -66,7 +66,7 @@ namespace QuizApp2
                     answer1 = "AB",
                     answer2 = "BO",
                     answer3 = "AC",
-                    answer4 = "B",
+                    answer4 = "BB",
                     correctAnswer = "AC"
                 },
              new Question
